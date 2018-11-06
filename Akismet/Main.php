@@ -28,6 +28,8 @@
 				    $event->setResponse(false); // It's spam, prevent annotation.
 
 				    \Idno\Core\Idno::site()->logging()->debug("AKISMET: Annotation from {$annotation['owner_name']} <{$annotation['owner_url']}> was blocked as SPAM");
+				} else {
+				    \Idno\Core\Idno::site()->logging()->debug("AKISMET: Annotation from {$annotation['owner_name']} <{$annotation['owner_url']}> seems OK");
 				}
 
 			    }
