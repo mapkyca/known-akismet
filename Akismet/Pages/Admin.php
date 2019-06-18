@@ -31,7 +31,7 @@
 		    
 		    if ($akismet->verifyKey()) {
 		    
-			\Idno\Core\site()->config->config['akismet'] = [
+			\Idno\Core\site()->config()->config['akismet'] = [
 			    'wordpress_key' => $key
 			];
 
