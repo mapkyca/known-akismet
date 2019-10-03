@@ -1,0 +1,17 @@
+{
+    "name": "mapkyca/known-akismet",
+    "description": "Akismet filtering of incoming comments and webmentions.",
+    "type": "known-plugin",
+    "version": "1.0.0",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "mapkyca/known-language-tools": "^1.0",
+        "mapkyca/known-dev-scripts": "^1.0",
+        "mapkyca/known-phpcs": "^1.0"
+    },
+    "extra": {
+        "installer-name": "Akismet"
+    }
+}
